@@ -45,7 +45,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-5xl md:text-7xl font-bold mb-4 gradient-text"
         >
-          Hello, I'm Alex Chen
+          Hello, I'm Ruban
         </motion.h1>
 
         <motion.p
@@ -54,7 +54,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl md:text-2xl mb-2 text-muted-foreground"
         >
-          Cloud Engineer | AI Enthusiast | Full Stack Developer
+           Cyber security | Full Stack Developer
         </motion.p>
 
         <motion.div
@@ -100,7 +100,7 @@ const HeroSection = () => {
           className="flex justify-center gap-6"
         >
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/ruban-s01/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 rounded-full glass flex items-center justify-center hover:glow-primary transition-all duration-300 group"
@@ -108,7 +108,7 @@ const HeroSection = () => {
             <Linkedin className="h-6 w-6 text-primary group-hover:text-primary-glow" />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/Ruban-r-s"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 rounded-full glass flex items-center justify-center hover:glow-primary transition-all duration-300 group"

@@ -1,39 +1,37 @@
 import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "../components/ui/card";
+import { Badge } from "../components/ui/badge";
 import { Calendar, MapPin, GraduationCap, Award } from "lucide-react";
 
 const AboutSection = () => {
   const timeline = [
     {
-      year: "2024",
-      title: "Senior Cloud Engineer",
-      company: "TechCorp Solutions",
+      year: "2025",
+      title: "GEN AI API AUTO GENERATOR IN FULL STACK DEVELOPMENT AS A (INTERNSHIP)",
+      company: "SOFTTRIE AI SOLUTIONS LLP",
       description: "Leading cloud infrastructure and AI implementations",
       icon: <Award className="h-5 w-5" />
     },
     {
-      year: "2022",
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      description: "Built scalable web applications and microservices",
+      year: "2025",
+      title: "MCA(MASTER OF COMPUTER APPLICATIONS)", // <-- Add comma here
+      company: "DAYANANDA SAGAR UNIVERSITY",
+      description: "MCA in computer application with First Class",
       icon: <Calendar className="h-5 w-5" />
     },
     {
       year: "2020",
-      title: "Computer Science Degree",
-      company: "University of Technology",
-      description: "B.S. in Computer Science with AI specialization",
+      title: "BCA(BACHELOR OF COMPUTER APPLICATIONS)",
+      company: "THE AMERICAN COLLEGE",
+      description: "BCA in Computer application with  First Class",
       icon: <GraduationCap className="h-5 w-5" />
     }
   ];
 
   const certifications = [
-    "AWS Solutions Architect",
-    "Azure DevOps Engineer",
-    "Google Cloud Professional",
-    "Kubernetes Administrator",
-    "Machine Learning Engineer"
+    "CCNA-Cisco Certified Network Associate",
+    "SA-1 Security Awarness",
+    "SA-2 security Awarness"
   ];
 
   return (
@@ -47,7 +45,7 @@ const AboutSection = () => {
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">About Me</h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Passionate about building scalable cloud solutions and AI-powered applications that make a difference.
+          Passionate about building scalable Cyber security and Full stack development that make a difference.
         </p>
       </motion.div>
 
@@ -62,13 +60,13 @@ const AboutSection = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-4 text-primary">Professional Summary</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                With over 4 years of experience in cloud engineering and full-stack development, 
-                I specialize in architecting scalable solutions that bridge the gap between 
-                cutting-edge AI technology and practical business applications.
+               Aspiring software developer and cybersecurity enthusiast with hands-on experience in Python, JavaScript. 
+Focused on improving skills in efficient coding, ethical hacking, and network security. Motivated, adaptable, and 
+committed to building secure, real-world software solutions.
               </p>
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
                 <MapPin className="h-4 w-4" />
-                San Francisco, CA
+                Banglore, India.
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Calendar className="h-4 w-4" />

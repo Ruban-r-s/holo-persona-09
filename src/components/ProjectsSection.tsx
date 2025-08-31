@@ -10,8 +10,8 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "AI-Powered Cloud Analytics",
-      description: "Real-time cloud resource optimization using machine learning algorithms. Reduces infrastructure costs by 40% through intelligent scaling.",
+      title: "MECHION  AI Laptop Assistant",
+      description: " Developed mechion , an AI laptop assistant for enhanced productivity through voice commands and task automation. Leveraged Machine Learning and NLP to enable intelligent, personalized user interactions .streamlined user workflows by automating tasks and providing real-time assistance.",
       image: "/api/placeholder/400/250",
       tech: ["Python", "AWS", "TensorFlow", "Docker"],
       category: "AI",
@@ -19,8 +19,8 @@ const ProjectsSection = () => {
       github: "https://github.com/example"
     },
     {
-      title: "Microservices E-commerce Platform",
-      description: "Scalable e-commerce platform built with microservices architecture. Handles 100k+ concurrent users with 99.9% uptime.",
+      title: "SpareX -Ecommerce platform for machine parts",
+      description: "Developed SpareX, an platform for machine parts, optimizing user experience and order management. Enhanced skills in e-commerce development, UI/UX and database management. streamlined purchasing and inventory processes, improving efficiency and user satisfaction.",
       image: "/api/placeholder/400/250",
       tech: ["React", "Node.js", "Kubernetes", "MongoDB"],
       category: "Frontend",
@@ -28,10 +28,10 @@ const ProjectsSection = () => {
       github: "https://github.com/example"
     },
     {
-      title: "DevOps Automation Pipeline",
-      description: "Complete CI/CD pipeline with automated testing, deployment, and monitoring. Reduced deployment time by 80%.",
+      title: "Blog Application",
+      description: "Full-stack blog application with user authentication, post creation, and commenting features.",
       image: "/api/placeholder/400/250",
-      tech: ["Jenkins", "Docker", "AWS", "Terraform"],
+      tech: ["HTML&CSS", "Moongse database", "Node.js", "React.js"],
       category: "Cloud",
       demo: "https://demo.example.com",
       github: "https://github.com/example"
@@ -45,24 +45,7 @@ const ProjectsSection = () => {
       demo: "https://demo.example.com",
       github: "https://github.com/example"
     },
-    {
-      title: "Blockchain Supply Chain",
-      description: "Transparent supply chain tracking using blockchain technology. Ensures product authenticity and reduces fraud.",
-      image: "/api/placeholder/400/250",
-      tech: ["Solidity", "Web3.js", "React", "IPFS"],
-      category: "Blockchain",
-      demo: "https://demo.example.com",
-      github: "https://github.com/example"
-    },
-    {
-      title: "ML Model Serving Platform",
-      description: "Scalable platform for deploying and serving machine learning models. Auto-scaling based on request volume.",
-      image: "/api/placeholder/400/250",
-      tech: ["Python", "FastAPI", "Kubernetes", "MLflow"],
-      category: "AI",
-      demo: "https://demo.example.com",
-      github: "https://github.com/example"
-    }
+    
   ];
 
   const categories = ["All", "AI", "Frontend", "Cloud", "Blockchain"];

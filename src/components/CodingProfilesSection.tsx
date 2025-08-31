@@ -6,7 +6,7 @@ const CodingProfilesSection = () => {
   const profiles = [
     {
       name: "LeetCode",
-      username: "@alexchen",
+      username: "@Ruban",
       logo: "🔗",
       stats: "500+ Problems Solved",
       url: "https://leetcode.com/alexchen",
@@ -14,44 +14,29 @@ const CodingProfilesSection = () => {
     },
     {
       name: "GitHub",
-      username: "@alexchen-dev",
+      username: "@Ruban-r-s",
       logo: "🐙",
       stats: "100+ Repositories",
-      url: "https://github.com/alexchen-dev",
+      url: "https://github.com/Ruban-r-s/blog-application.git",
       color: "secondary"
     },
     {
       name: "HackerRank",
-      username: "@alexchen",
+      username: "@Ruban ",
       logo: "🏆",
       stats: "5⭐ Problem Solver",
-      url: "https://hackerrank.com/alexchen",
+      url: "https://hackerrank.com/Ruban",
       color: "accent"
     },
     {
-      name: "Codeforces",
-      username: "@alexchen",
+      name: "linkedin",
+      username: "@Ruban",
       logo: "⚔️",
       stats: "Expert Rating",
-      url: "https://codeforces.com/profile/alexchen",
+      url: "www.linkedin.com/in/ruban-s01",
       color: "primary"
     },
-    {
-      name: "CodeChef",
-      username: "@alexchen",
-      logo: "👨‍🍳",
-      stats: "4⭐ Competitor",
-      url: "https://codechef.com/users/alexchen",
-      color: "secondary"
-    },
-    {
-      name: "Stack Overflow",
-      username: "@alexchen",
-      logo: "📚",
-      stats: "10k+ Reputation",
-      url: "https://stackoverflow.com/users/alexchen",
-      color: "accent"
-    }
+    
   ];
 
   return (
